@@ -1,0 +1,23 @@
+# apisix
+/apisix_log/*
+!/apisix_log/.keep
+
+# etcd
+/etcd_data/*
+!/etcd_data/.keep
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+
+# Docker files
+docker-compose.override.yml
