@@ -29,6 +29,35 @@ This project demonstrates the use of APISIX, PostgreSQL, and other tools in a Do
 - Docker
 - Docker Compose
 
+### Setting Up FastAPI Environment
+
+#### Navigating to the `myapi` Folder
+```sh
+cd myapi
+```
+#### Creating a Virtual Environment
+##### Mac
+```sh
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+```
+##### Windows
+```sh
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+.\venv\Scripts\activate
+```
+##### Installing Requirements
+```sh
+# Make sure the virtual environment is activated, then install the requirements
+pip install -r requirements.txt
+```
+
 ### Setting Up Environment Variables
 This project uses a `.env` file to manage environment variables. An example file `.env.example` is provided. To get started, copy this file to `.env` and update the values as needed.
 ```sh
